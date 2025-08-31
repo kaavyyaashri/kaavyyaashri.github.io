@@ -1,10 +1,231 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Kaavya Sri Ramarapu - Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kaavya Sri Ramarapu — Portfolio</title>
+  <meta name="description" content="HPC & Embedded Systems | Linux, SLURM, CUDA | Test & Validation" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0b0c10;--fg:#e6e6e6;--muted:#9aa3af;--accent:#60a5fa;--card:#111217;--bd:#1f2430;}
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6}
+    a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+    header{max-width:960px;margin:0 auto;padding:32px 20px 8px}
+    nav{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:12px}
+    nav a{color:var(--muted)} nav a:hover{color:var(--fg)}
+    .hero{padding:20px;border:1px solid var(--bd);border-radius:14px;background:var(--card)}
+    .hero h1{margin:0 0 8px;font-size:28px}
+    .tag{display:inline-block;border:1px solid var(--bd);padding:4px 10px;border-radius:999px;color:var(--muted);font-size:14px;margin-right:8px;margin-top:6px}
+    main{max-width:960px;margin:0 auto;padding:8px 20px 60px;display:grid;gap:22px}
+    section{border:1px solid var(--bd);border-radius:14px;background:var(--card);padding:18px 20px}
+    h2{margin:0 0 10px;font-size:20px}
+    ul{margin:8px 0 0 18px}
+    .grid-2{display:grid;gap:16px}@media(min-width:880px){.grid-2{grid-template-columns:1fr 1fr}}
+    .item h3{margin:0;font-size:16px}
+    .sub{color:var(--muted);font-size:14px;margin-top:-2px}
+    .row{display:flex;gap:10px;flex-wrap:wrap}
+    .pill{border:1px solid var(--bd);padding:6px 10px;border-radius:999px;font-size:13px;color:var(--muted)}
+    footer{max-width:960px;margin:0 auto;padding:0 20px 48px;color:var(--muted);font-size:13px}
+    .btn{display:inline-block;background:var(--accent);color:#0b1220;padding:10px 14px;border-radius:10px;font-weight:600}
+    .btn:hover{text-decoration:none;filter:brightness(1.08)}
+    /* Light mode if user prefers */
+    @media (prefers-color-scheme: light){
+      :root{--bg:#fbfbfc;--fg:#0f172a;--muted:#475569;--accent:#2563eb;--card:#ffffff;--bd:#e5e7eb}
+      .btn{color:#fff}
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, I’m Kaavya</h1>
-  <p>Welcome to my portfolio website. Projects coming soon!</p>
+
+<header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#certs">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Kaavya Sri Ramarapu</h1>
+    <div class="row">
+      <span class="tag">HPC &amp; Linux</span>
+      <span class="tag">SLURM</span>
+      <span class="tag">CUDA</span>
+      <span class="tag">Embedded / FPGA / ARM</span>
+      <span class="tag">Test &amp; Validation</span>
+    </div>
+    <p style="margin:10px 0 0;color:var(--muted)">
+      Graduate in Electrical Engineering focused on HPC clusters, GPU-accelerated workflows, and embedded systems.
+      Experienced with SLURM, Linux, Docker, and validation practices. Looking for roles in HPC, GPU programming, or hardware-software test.
+    </p>
+    <div style="margin-top:12px" class="row">
+      <a class="btn" href="./Kaavya_Sri_Resume_2025.pdf" download>Download Resume (PDF)</a>
+      <a class="btn" href="mailto:ramarapukaavyasri@gmail.com">Email</a>
+      <a class="btn" href="https://www.linkedin.com/in/kaavyasriramarapu/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/kaavvyaashri" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      I work across HPC systems and embedded platforms. I build SLURM job flows, containerize training pipelines,
+      and debug hardware-software interactions. I enjoy creating clear documentation and repeatable procedures that
+      improve reliability for users and teams.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="grid-2">
+      <div class="item">
+        <h3>HPC &amp; Systems</h3>
+        <p class="sub">Linux (Ubuntu), SLURM, Docker, CUDA</p>
+      </div>
+      <div class="item">
+        <h3>AI &amp; Frameworks</h3>
+        <p class="sub">PyTorch, TensorFlow, Scikit-learn, OpenCV, CV/DL, GANs (basics)</p>
+      </div>
+      <div class="item">
+        <h3>Embedded &amp; Electronics</h3>
+        <p class="sub">Arduino, Sensor interfacing, Xilinx FPGA, ARM Cortex, SPI, LCD, Motors, Proteus, PCB testing &amp; soldering</p>
+      </div>
+      <div class="item">
+        <h3>Programming &amp; Tools</h3>
+        <p class="sub">Python, C, Bash; Jupyter, VS Code, Git; NumPy/Pandas, Matplotlib/Seaborn, Power BI</p>
+      </div>
+      <div class="item">
+        <h3>Validation &amp; Docs</h3>
+        <p class="sub">Debugging, Failure analysis, Technical documentation, Report writing</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <div class="item" style="margin-bottom:14px">
+      <h3>Graduate Research Assistant · HiPE Laboratory, Texas State</h3>
+      <div class="sub">May 2024 – May 2025 · San Marcos, TX</div>
+      <ul>
+        <li>Developed SLURM job scripts and supported new users running workloads on HPC clusters.</li>
+        <li>Generated utilization/performance reports with Bash to inform resource allocation and planning.</li>
+        <li>Troubleshot job failures and module conflicts to stabilize operations.</li>
+        <li>Monitored cluster usage patterns to guide capacity and upgrade decisions.</li>
+        <li>Authored troubleshooting guides to streamline onboarding and reduce support overhead.</li>
+      </ul>
+    </div>
+
+    <div class="item" style="margin-bottom:14px">
+      <h3>Graduate Instruction Assistant · Microprocessors Lab, Texas State</h3>
+      <div class="sub">Aug 2022 – May 2024 · San Marcos, TX</div>
+      <ul>
+        <li>Led labs on embedded programming and hardware interfacing with Arduino and Xilinx FPGA/ARM.</li>
+        <li>Assisted debugging SPI/UART/I²C; resolved integration issues with displays, sensors, and motors.</li>
+        <li>Prepared lab materials and troubleshooting references; reviewed team designs for reliable prototypes.</li>
+      </ul>
+    </div>
+
+    <div class="item" style="margin-bottom:14px">
+      <h3>Testing Engineer Intern · Pragna Electronics &amp; Communication</h3>
+      <div class="sub">Feb 2021 – Jun 2022 · Hyderabad, Telangana</div>
+      <ul>
+        <li>Assembled and validated PCBs via soldering, wiring, and functional checks against specs.</li>
+        <li>Performed visual and component-level tests; documented findings and QA reports.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <h3>Summer Intern · Indian Railways, Electric Loco Shed</h3>
+      <div class="sub">Jun 2019 – Jul 2019 · Hyderabad</div>
+      <ul>
+        <li>Supported diagnostics for converters, electrical machines, and propulsion control systems; documented procedures.</li>
+      </ul>
+    </div>
+
+    <div class="item" style="margin-top:14px">
+      <h3>Student Intern · Transmission Corporation of Telangana</h3>
+      <div class="sub">Jul 2019 – Aug 2019 · Hyderabad</div>
+      <ul>
+        <li>Participated in substation operation and grid monitoring workshops; contributed to technical reports.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="item" style="margin-bottom:14px">
+      <h3>Thesis · Environmental Emotion Recognition for Children with ASD</h3>
+      <div class="sub">Texas State University · Aug 2022 – May 2025</div>
+      <ul>
+        <li>Dual-path framework: ResNet-18 for environmental cues; Inception-ResNetV1 + MTCNN for facial emotion.</li>
+        <li>Weighted fusion layer balances signals when one input is weak or missing.</li>
+        <li>Reproducible SLURM-managed training pipelines; applied tailored losses and LR scheduling.</li>
+        <li>Documented workflows and testing protocols for repeatability and team hand-off.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <h3>Head-Gesture Wheelchair Control &amp; Health Monitoring</h3>
+      <div class="sub">ACE Engineering College · Jan 2020 – Mar 2020</div>
+      <ul>
+        <li>Arduino + motion sensors for real-time navigation via head movement.</li>
+        <li>Integrated temperature and heartbeat sensing; validated motor control and comms stability.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="education" class="grid-2">
+    <div class="item">
+      <h2>Education</h2>
+      <h3>M.S., Electrical Engineering</h3>
+      <div class="sub">Texas State University · Aug 2022 – May 2025</div>
+      <h3 style="margin-top:10px">B.Tech, EEE</h3>
+      <div class="sub">JNTU Hyderabad · Aug 2016 – Sept 2020</div>
+    </div>
+    <div class="item">
+      <h2>Coursework</h2>
+      <p class="sub">Digital Image Processing, Machine Learning for Engineering, Computer Architecture, Statistical Methods, Microprocessors &amp; Microcontrollers, Power Electronics, Engineering Economics.</p>
+    </div>
+  </section>
+
+  <section id="certs">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Learning Linux Command Line (2025)</li>
+      <li>Build GANs & Diffusion Models with TensorFlow/PyTorch — LinkedIn Learning (2024)</li>
+      <li>Generative AI Concepts — DataCamp (2024)</li>
+      <li>Intro to Statistics; GLMs in Python; Data Visualization with ggplot2 — DataCamp (2023)</li>
+      <li>Power BI — DataCamp (2023)</li>
+      <li>Embedded Systems — VECTOR INDIA (2021)</li>
+      <li>Electrical-CAD — NSIC Technical Services Center (2018)</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      <strong>Email:</strong> <a href="mailto:ramarapukaavyasri@gmail.com">ramarapukaavyasri@gmail.com</a><br/>
+      <strong>Phone:</strong> <a href="tel:+17372421180">+1-737-242-1180</a><br/>
+      <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kaavyasriramarapu/" target="_blank" rel="noopener">kaavyasriramarapu</a><br/>
+      <strong>GitHub:</strong> <a href="https://github.com/kaavvyaashri" target="_blank" rel="noopener">kaavvyaashri</a>
+    </p>
+  </section>
+</main>
+
+<footer>
+  <p>© <span id="y"></span> Kaavya Sri Ramarapu · Built with HTML/CSS on GitHub Pages</p>
+</footer>
+
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+<!-- Source content mirrors your uploaded resume. -->
 </body>
 </html>
