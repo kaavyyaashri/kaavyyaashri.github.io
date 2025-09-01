@@ -1,146 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Kaavya Sri Ramarapu</title>
-  <meta name="description" content="HPC, Linux/SLURM, CUDA, Embedded/FPGA/ARM, Test & Validation">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-  <style>
-    :root{--bg:#0a0d10;--fg:#e7e9ee;--mut:#9aa4b2;--acc:#60a5fa;--card:rgba(16,18,24,.72);--bd:rgba(255,255,255,.08)}
-    *{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:#000;color:var(--fg);line-height:1.6}
-    .page{min-height:100vh;background-image:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.82)),url('./fern_leaves.jpg');background-size:cover;background-position:center}
-    a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
-    .wrap{max-width:980px;margin:0 auto;padding:20px}
-    nav{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:10px}
-    nav a{color:var(--mut)}nav a:hover{color:#fff}
-    .card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:18px}
-    .hero{margin-top:18px}
-    .h1{margin:0 0 6px;font-size:28px}
-    .sub{color:var(--mut);margin:0}
-    .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
-    .btn{background:var(--acc);color:#0b1220;padding:10px 14px;border-radius:10px;font-weight:600}
-    .btn:hover{text-decoration:none;filter:brightness(1.08)}
-    main{display:grid;gap:16px;margin-top:12px}
-    h2{margin:0 0 8px;font-size:20px}
-    ul{margin:8px 0 0 18px}
-    .grid2{display:grid;gap:14px}@media(min-width:860px){.grid2{grid-template-columns:1fr 1fr}}
-    .pill{display:inline-block;border:1px solid var(--bd);padding:6px 10px;border-radius:999px;color:var(--mut);font-size:13px;margin:4px 6px 0 0}
-    footer{color:var(--mut);font-size:.9rem;padding:0 20px 36px}
-    @media(prefers-color-scheme:light){
-      :root{--fg:#0f172a;--mut:#5b6574;--acc:#2563eb;--card:#ffffffb3;--bd:#e5e7eb}
-      body{background:#f7f8fb}
-    }
-  </style>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kaavya Sri Ramarapu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+:root{--fg:#e8eaee;--mut:#b2bac7;--acc:#60a5fa;--glass:rgba(15,18,24,.68);--bd:rgba(255,255,255,.10)}
+*{box-sizing:border-box} body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:#000;color:var(--fg)}
+a{color:var(--acc);text-decoration:none} a:hover{text-decoration:underline}
+.page{min-height:100vh;display:flex;flex-direction:column;background-image:
+  linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.8)),url('./fern_leaves.jpg');background-size:auto;background-position:center}
+.wrap{max-width:1000px;margin:0 auto;padding:18px}
+nav{display:flex;gap:18px;justify-content:center}
+nav a{color:var(--mut);font-weight:600} nav a:hover{color:#fff}
+.hero{margin:22px auto;max-width:980px}
+.card{background:var(--glass);border:1px solid var(--bd);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+      border-radius:18px;padding:28px 22px;text-align:center}
+h1{margin:6px 0 8px;font-size:44px;letter-spacing:.3px}
+.sub{margin:0;color:var(--mut);font-size:18px}
+.row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:16px 0 4px}
+.btn{background:var(--acc);color:#0b1220;padding:12px 16px;border-radius:12px;font-weight:700}
+.btn--ghost{border:1.4px solid var(--bd);color:var(--fg);background:transparent}
+.btn:hover{text-decoration:none;filter:brightness(1.08)}
+.icons{display:flex;gap:14px;justify-content:center;margin:10px 0 0}
+.icon{width:22px;height:22px;opacity:.9} .icon:hover{opacity:1}
+footer{margin-top:auto;text-align:center;color:var(--mut);font-size:13px;padding:16px}
+@media(min-width:900px){h1{font-size:56px}}
+</style>
 </head>
 <body>
 <div class="page">
   <header class="wrap">
     <nav>
-      <a href="#about">About</a><a href="#skills">Skills</a><a href="#exp">Experience</a>
-      <a href="#projects">Projects</a><a href="#edu">Education</a><a href="#contact">Contact</a>
+      <a href="#top">About</a>
+      <a href="https://github.com/kaavvyaashri" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/kaavyasriramarapu/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:ramarapukaavyasri@gmail.com">Contact</a>
     </nav>
-    <div class="card hero">
-      <h1 class="h1">Kaavya Sri Ramarapu</h1>
-      <p class="sub">HPC & Linux · SLURM · CUDA · Embedded/FPGA/ARM · Test & Validation</p>
-      <div class="row">
-        <span class="pill">HPC &amp; Clusters</span><span class="pill">Docker</span>
-        <span class="pill">PyTorch/TensorFlow</span><span class="pill">OpenCV</span>
-      </div>
-      <div class="row">
-        <!-- Use your current filename with encoded space -->
-        <a class="btn" href="./Kaavya%20Sri%20Resume_2025.pdf" download>Download Resume (PDF)</a>
-        <a class="btn" href="mailto:ramarapukaavyasri@gmail.com">Email</a>
-        <a class="btn" href="https://www.linkedin.com/in/kaavyasriramarapu/" target="_blank" rel="noopener">LinkedIn</a>
-        <a class="btn" href="https://github.com/kaavvyaashri" target="_blank" rel="noopener">GitHub</a>
-      </div>
-    </div>
   </header>
 
-  <main class="wrap">
-    <section id="about" class="card">
-      <h2>About</h2>
-      <p>Graduate in Electrical Engineering focused on HPC clusters, GPU-accelerated workflows, and embedded systems.
-         Comfortable with SLURM, Linux, Docker, and documentation for reliable operations.</p>
-    </section>
+  <main id="top" class="hero wrap">
+    <div class="card">
+      <h1>Kaavya Sri Ramarapu</h1>
+      <p class="sub">HPC & Linux · SLURM · CUDA · Embedded/FPGA/ARM · Test & Validation</p>
 
-    <section id="skills" class="card">
-      <h2>Skills</h2>
-      <ul>
-        <li><b>HPC & Systems:</b> Linux (Ubuntu), SLURM, Docker, CUDA</li>
-        <li><b>AI & CV:</b> PyTorch, TensorFlow, Scikit-learn, OpenCV, GANs (basics)</li>
-        <li><b>Embedded & Electronics:</b> Arduino, Xilinx FPGA, ARM Cortex, SPI/UART/I²C, PCB testing & soldering</li>
-        <li><b>Programming & Tools:</b> Python, C, Bash, Git, NumPy/Pandas, Matplotlib/Seaborn, Power BI</li>
-        <li><b>Validation & Docs:</b> Debugging, failure analysis, technical documentation</li>
-      </ul>
-    </section>
-
-    <section id="exp" class="card">
-      <h2>Experience</h2>
-      <p><b>Graduate Research Assistant · HiPE Lab, Texas State</b> — May 2024–May 2025</p>
-      <ul>
-        <li>Built SLURM job scripts; onboarded new HPC users.</li>
-        <li>Produced Bash utilization reports for capacity planning.</li>
-        <li>Troubleshot job failures and module conflicts; stabilized operations.</li>
-        <li>Monitored usage to guide upgrades; wrote troubleshooting docs.</li>
-      </ul>
-      <p><b>Graduate Instruction Assistant · Microprocessors Lab</b> — Aug 2022–May 2024</p>
-      <ul>
-        <li>Led labs on Arduino and Xilinx FPGA/ARM.</li>
-        <li>Debugged SPI/UART/I²C and device integration.</li>
-      </ul>
-      <p><b>Testing Engineer Intern · Pragna Electronics</b> — Feb 2021–Jun 2022</p>
-      <ul>
-        <li>Assembled/validated PCBs; component-level testing and QA docs.</li>
-      </ul>
-    </section>
-
-    <section id="projects" class="card">
-      <h2>Projects</h2>
-      <p><b>Thesis · Environment Emotion Recognition for Children with ASD</b></p>
-      <ul>
-        <li>Dual-path: ResNet-18 (environment), Inception-ResNetV1 + MTCNN (facial).</li>
-        <li>Weighted fusion layer for robustness to weak/missing inputs.</li>
-        <li>SLURM-managed pipelines; tailored losses and LR scheduling.</li>
-      </ul>
-      <p><b>Head-Gesture Wheelchair Control & Health Monitoring</b></p>
-      <ul>
-        <li>Arduino + motion sensors for navigation; integrated vital sensing.</li>
-      </ul>
-    </section>
-
-    <section id="edu" class="card grid2">
-      <div>
-        <h2>Education</h2>
-        <p><b>M.S., Electrical Engineering</b> — Texas State University (2025)</p>
-        <p><b>B.Tech, EEE</b> — JNTU Hyderabad (2020)</p>
+      <div class="row">
+        <!-- Use your current filename (space encoded). Rename if you prefer. -->
+        <a class="btn" href="./1.Kaavya%20Sri%20Resume_2025.pdf" download>Download&nbsp;Resume</a>
+        <a class="btn btn--ghost" href="mailto:ramarapukaavyasri@gmail.com">Email</a>
+        <a class="btn btn--ghost" href="https://github.com/kaavvyaashri" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn--ghost" href="https://www.linkedin.com/in/kaavyasriramarapu/" target="_blank" rel="noopener">LinkedIn</a>
       </div>
-      <div>
-        <h2>Certifications</h2>
-        <ul>
-          <li>Learning Linux Command Line (2025)</li>
-          <li>GANs & Diffusion — LinkedIn Learning (2024)</li>
-          <li>Generative AI Concepts — DataCamp (2024)</li>
-          <li>Power BI; GLMs; Viz with ggplot2 — DataCamp (2023)</li>
-          <li>Embedded Systems — VECTOR INDIA (2021)</li>
-        </ul>
-      </div>
-    </section>
 
-    <section id="contact" class="card">
-      <h2>Contact</h2>
-      <p>
-        <b>Email:</b> <a href="mailto:ramarapukaavyasri@gmail.com">ramarapukaavyasri@gmail.com</a> ·
-        <b>Phone:</b> <a href="tel:+17372421180">+1-737-242-1180</a> ·
-        <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/kaavyasriramarapu/" target="_blank">/kaavyasriramarapu</a> ·
-        <b>GitHub:</b> <a href="https://github.com/kaavvyaashri" target="_blank">@kaavvyaashri</a>
-      </p>
-    </section>
+      <div class="icons">
+        <!-- Minimal inline icons (GitHub + LinkedIn) to avoid external libs -->
+        <a href="https://github.com/kaavvyaashri" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.42c.58.1.8-.26.8-.57v-2.2c-3.26.71-3.95-1.4-3.95-1.4-.53-1.35-1.3-1.7-1.3-1.7-1.06-.73.08-.72.08-.72 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.74 1.27 3.41.97.1-.76.41-1.27.74-1.56-2.6-.3-5.33-1.3-5.33-5.77 0-1.27.46-2.3 1.2-3.11-.12-.3-.52-1.5.12-3.13 0 0 .98-.31 3.2 1.19.93-.26 1.93-.39 2.92-.39.99 0 2 .13 2.93.39 2.2-1.5 3.18-1.19 3.18-1.19.64 1.64.24 2.84.12 3.13.75.81 1.2 1.84 1.2 3.1 0 4.49-2.74 5.47-5.36 5.77.43.37.8 1.1.8 2.22v3.29c0 .32.21.68.81.57A11.5 11.5 0 0 0 12 .5z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/kaavyasriramarapu/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 8.98h3.96V21H3V8.98zM9.49 8.98H13v1.64h.05c.49-.92 1.68-1.89 3.46-1.89 3.7 0 4.38 2.42 4.38 5.56V21h-3.96v-5.33c0-1.27-.02-2.9-1.77-2.9-1.77 0-2.04 1.38-2.04 2.81V21H9.49V8.98z"/></svg>
+        </a>
+      </div>
+    </div>
   </main>
 
-  <footer class="wrap">© <span id="y"></span> Kaavya Sri Ramarapu · GitHub Pages</footer>
+  <footer>© <span id="y"></span> Kaavya Sri Ramarapu · GitHub Pages</footer>
 </div>
 <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
