@@ -1,17 +1,17 @@
 <h1 align="center">Hi 👋, I'm Kaavya Sri Ramarapu</h1>
 <h3 align="center">A Embedded Systems and Embedded AI engineer</h3>
 
-- 🔭 I’m currently working on **Micropython**
+- 🔭 I’m currently working on **developing my skills as a recent graduate**
 
 - 🌱 I’m currently learning **Micro python and circuit python and TinyML**
 
-- 🤝 I’m looking for help with **embedded systems engineer or a product strategist engineer**
+- 🤝 I’m looking for help with **getting a internship or an entry level position as embedded systems engineer or a product management engineer (AI/Embedded systems)**
 
 - 💬 Ask me about **Research, Strategy, Analysis.**
 
 - 📫 How to reach me **ramarapukaavyasri@gmail.com**
 
-- ⚡ Fun fact **I talk a lot if we connect.**
+<!-- ⚡ Fun fact **I talk a lot if we connect.**-->
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
