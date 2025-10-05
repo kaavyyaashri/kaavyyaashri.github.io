@@ -9,7 +9,7 @@
 
 - 💬 Ask me about **Research, Strategy, Analysis.**
 
-- 📫 How to reach me **ramarapukaavyasri@gmail.com**
+- 📫 How to reach me **ramarapukaavyasri@gmail.com** , **ramarapukaavyasri@zohomail.com**
 
 <!-- ⚡ Fun fact **I talk a lot if we connect.**-->
 
