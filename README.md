@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **developing my skills as a recent graduate**
 
-- 🌱 I’m currently learning **Micro python and circuit python and TinyML**
+<!-- 🌱 I’m currently learning **Micro python and circuit python and TinyML**-->
 
 - 🤝 I’m looking for help with **getting a internship or an entry level position as embedded systems engineer or a product management engineer (AI/Embedded systems)**
 
