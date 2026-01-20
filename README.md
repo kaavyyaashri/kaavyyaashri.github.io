@@ -5,7 +5,7 @@
 
 <!-- 🌱 I’m currently learning **Micro python and circuit python and TinyML**-->
 
-- 🤝 I’m searching to do **some projects and develop my skills for these related fields: product engineering, Testing engineering, Applied AI**
+- 🤝 I’m searching to do **projects and develop my skills for these related fields: product engineering, Testing engineering, Applied AI for Engineering purposes**
 
 - 💬 Ask me about **Research, Strategy, Analysis.**
 
