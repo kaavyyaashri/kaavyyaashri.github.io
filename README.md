@@ -5,7 +5,7 @@
 
 <!-- 🌱 I’m currently learning **Micro python and circuit python and TinyML**-->
 
-- 🤝 I’m looking for help with **getting a internship or an entry level position as embedded systems engineer or a product management engineer (AI/Embedded systems)**
+- 🤝 I’m searching to do **some projects and develop my skills for these related fields: product engineering, Testing engineering, Applied AI**
 
 - 💬 Ask me about **Research, Strategy, Analysis.**
 
